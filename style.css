@@ -1,0 +1,205 @@
+body{
+    margin: 0PX;
+    padding: 0px;
+    font-family: "Exo 2";
+    background-image: url("coffee-beans.jpg");
+    background-size: cover;
+    
+  }
+  
+.header{
+    color: #ffffff;
+    background-color: rgb(96, 34, 34);
+    border-bottom: 2px;
+
+  }
+  
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+
+  }
+  
+.navbar{
+    display: flex;
+    width: 400px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+      
+  }
+  
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+
+  }
+  
+.banner{
+    background-image: url("bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+  
+  }
+.agora{
+    font-weight: bold;
+    
+  }
+
+
+.banner .container{
+    height: 550px;
+    display:flex;
+    color: #ffff;
+    align-items: center;
+
+  }
+  
+.banner p{
+    font-size: 40px;
+    width: 280px;
+    margin-left: 20%;
+  
+  }
+  
+.flutter {
+    background-color: #3289cd;
+    color: #ffff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+.card{
+    background-color: #e5e5e5;
+    color: rgb(96, 34, 34);
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+.card.cadastro{
+    background-color: #e5e5e5;
+    color: rgb(96, 34, 34);
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+.card.login{
+    background-color: #e5e5e5;
+    color: rgb(96, 34, 34);
+    height: 350px;
+    width: 400px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  
+.card .h2{
+    margin: 0;
+  
+  }
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 350px;
+
+  }
+
+.coisas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 350px;
+
+  }
+  
+.banner .container.login{
+    justify-content: center;
+
+  }
+
+form input{
+    margin-top: 8px;
+    outline: 3px solid #3289cd;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+  
+  }
+
+.coisas input{
+    margin-top: 8px;
+    outline: 3px solid #3289cd;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+  
+  }
+
+form  label{
+    margin-top: 8px;
+
+  }
+  
+.coisas  label{
+    margin-top: 8px;
+
+  }
+
+form button{
+    margin-top: 25px;
+    background-color: rgb(96, 34, 34);
+    color: #ffff;
+    font-weight: bold;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    cursor:pointer;
+
+  }
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+
+}
+
+.coisas button{
+    margin-top: 25px;
+    background-color: rgb(96, 34, 34);
+    color: #ffff;
+    font-weight: bold;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    cursor:pointer;
+
+  }
+ 
